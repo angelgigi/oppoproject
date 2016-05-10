@@ -1,0 +1,183 @@
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+    margin:0;
+    padding:0;
+    font-size:13px;
+}
+ul {
+    list-style:none;
+}
+img,a img {
+    border:none;
+}
+a {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+/*基本格式结束*/
+.auto{
+    width:960px;
+    margin:0 auto;
+}
+body{
+    background:url(../images/body_bg.jpg) repeat-x;
+}
+#top{
+    height:100px;
+}
+#top .nav{
+    height:46px;
+    background:url(../images/mainnav_bg.gif) repeat-x;
+    margin:15px 0 0 0
+}
+#top .nav .same{
+    width:10px;
+    height:46px;
+}
+#top .nav .left{
+    float:left
+}
+#top .nav .right{
+    float:right
+}
+#top .nav .maindiv{
+    width:940px;
+    height:42px;
+    float:left
+}
+#top .nav .maindiv .logo{
+    width:163px;
+    height:46px;
+    display:block;
+    float:left
+}
+#top .nav .maindiv ul{
+    width:770px;
+    height:46px;
+    float:left
+}
+#top .nav .maindiv ul li{
+    float:left;
+}
+#top .nav .maindiv ul li a{
+    width:135px;
+    height:46px;
+    color:#576267;
+    display:block;
+    font-size:14px;
+    text-align:center;
+    background:url(../images/main_line.gif) no-repeat;
+    line-height: 46px;
+}
+#top .nav .maindiv ul li a:hover{
+    text-decoration:none;
+    background:url(../images/green_bg.jpg);
+    color:#FFF;
+}
+#top .nav1 .enter{
+    margin:15px 0 0 0;
+    width:190px;
+    float:right;
+}
+#top .nav1 a{
+    color:#979693;
+}
+#top .nav1 a:hover{
+    text-decoration:none;
+}
+#top .nav1 a.same:hover{
+    color:#43B43E;
+}
+#top .nav1 form.search{
+    margin:10px 20px 0 0;
+    float:right;
+    width:186px;
+    height:23px;
+    background:url(../images/search_03.gif);
+}
+#top .nav1 form.search .keywords{
+    width:140px;
+    height:20px;
+    border:none;
+    margin:2px 0 0 10px;
+}
+#top .nav1 form.search .btn{
+    width:15px;
+    height:16px;
+    background:url(../images/search_biao.gif);
+    border:none;
+    margin:3px 2px 2px 2px;
+    cursor:pointer;
+}
+#main{
+    clear:both;
+    background:url(../images/main_bg.jpg) repeat-x ;
+}
+#main .auto .img1{
+    border:2px solid #666;
+    display: block;
+}
+#main .auto .title{
+    height: 40px;
+    line-height: 40px;
+    background: url(../images/cat_tit.gif)bottom left no-repeat;
+    margin: 10px 0 0 0 ;
+}
+#main .auto .title h2{
+    color: #545351;
+    font-family:微软雅黑;
+    font-size: 16px;
+    width: 200px;
+    float: left;
+
+}
+#main .auto .title a{
+    float: right;
+    color:#666 ;
+}
+#main .auto .box .shop{
+    width: 238px;
+    height: 302px;
+    float: left;
+    border-left: 1px solid #E1E1E1;
+    border-bottom:1px solid #E1E1E1;
+}
+#main .auto .box .shop4{
+    width: 241px;
+    border-right:1px solid #E1E1E1 ;
+}
+#main .auto .box .shop img{
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin: 40px auto;
+}
+#main .auto .box .shop p{
+    width: 160px;
+    line-height: 23px;
+    margin: 0 auto;
+    color: #979693;
+}
+#main .auto .box .shop p a{
+    color: #979693;
+}
+#main .auto .shoplist{
+    clear:both;
+}
+#main .auto .brand{
+    border-bottom: 1px solid #E8E8E8;
+    padding: 20px 0 30px 0;
+}
+#bottom{
+    text-align: center;
+    padding: 50px 0;
+}
+#bottom p{
+    color: #999999;
+}
+#bottom p a {
+    font-size: 30px;
+    color: #999999;
+}
